@@ -12,17 +12,90 @@
 
 	<!-- Custom styles for this template -->
 	<link href="https://getbootstrap.com/docs/4.0/examples/navbar-static/navbar-top.css" rel="stylesheet">
+
+	<style type="text/css">
+		body {
+			font-family: "Source Sans Pro",Arial,Helvetica,Sans-serif;
+		}
+	</style>
 </head>
 
 <body>
 
-	<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+	<nav class="navbar navbar-expand-md navbar-dark bg-success">
 		<a class="navbar-brand" href="https://getbootstrap.com/docs/4.0/examples/navbar-static/#">Unipampa</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarCollapse">
-			<ul class="navbar-nav mr-auto">
+
+			<div class="dropdown">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownInstitucional" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Institucional
+				</button>
+				<div class="dropdown-menu" aria-labelledby="dropdownInstitucional">
+					<a class="dropdown-item" href="#">Universidade</a>
+					<a class="dropdown-item" href="#">Órgãos superiores</a>
+					<a class="dropdown-item" href="#">Reitoria</a>
+				</div>
+			</div>
+
+			<div class="dropdown">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownInstitucional" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Ingresso
+				</button>
+				<div class="dropdown-menu" aria-labelledby="dropdownInstitucional">
+					<a class="dropdown-item" href="#">Universidade</a>
+					<a class="dropdown-item" href="#">Órgãos superiores</a>
+					<a class="dropdown-item" href="#">Reitoria</a>
+				</div>
+			</div>
+
+			<div class="dropdown">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownInstitucional" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Ensino
+				</button>
+				<div class="dropdown-menu" aria-labelledby="dropdownInstitucional">
+					<a class="dropdown-item" href="#">Universidade</a>
+					<a class="dropdown-item" href="#">Órgãos superiores</a>
+					<a class="dropdown-item" href="#">Reitoria</a>
+				</div>
+			</div>
+
+			<div class="dropdown">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownInstitucional" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Pesquisa
+				</button>
+				<div class="dropdown-menu" aria-labelledby="dropdownInstitucional">
+					<a class="dropdown-item" href="#">Universidade</a>
+					<a class="dropdown-item" href="#">Órgãos superiores</a>
+					<a class="dropdown-item" href="#">Reitoria</a>
+				</div>
+			</div>
+
+			<div class="dropdown">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownInstitucional" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Extensão
+				</button>
+				<div class="dropdown-menu" aria-labelledby="dropdownInstitucional">
+					<a class="dropdown-item" href="#">Universidade</a>
+					<a class="dropdown-item" href="#">Órgãos superiores</a>
+					<a class="dropdown-item" href="#">Reitoria</a>
+				</div>
+			</div>
+
+			<div class="dropdown">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownInstitucional" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Campi
+				</button>
+				<div class="dropdown-menu" aria-labelledby="dropdownInstitucional">
+					<a class="dropdown-item" href="#">Universidade</a>
+					<a class="dropdown-item" href="#">Órgãos superiores</a>
+					<a class="dropdown-item" href="#">Reitoria</a>
+				</div>
+			</div>
+
+			<!--ul class="navbar-nav mr-auto">
 				<li class="nav-item">
 					<a class="nav-link" href="https://getbootstrap.com/docs/4.0/examples/navbar-static/#">Institucional</a>
 				</li>
@@ -32,7 +105,7 @@
 				<li class="nav-item">
 					<a class="nav-link" href="https://getbootstrap.com/docs/4.0/examples/navbar-static/#">Sistemas</a>
 				</li>
-			</ul>
+			</ul-->
 			<form class="form-inline mt-2 mt-md-0">
 				<input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Search">
 				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
@@ -50,7 +123,6 @@
 		</div-->
 
 		<section id="carrossel">
-			<div class="container">
 				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 					<ol class="carousel-indicators">
 						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -59,13 +131,13 @@
 					</ol>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img class="d-block w-100" src="./img/slide-1.svg" alt="First slide">
+							<img class="d-block w-100" src="./img/banner-1.png" alt="First slide">
 						</div>
 						<div class="carousel-item">
-							<img class="d-block w-100" src="./img/slide-2.svg" alt="Second slide">
+							<img class="d-block w-100" src="./img/banner-2.png" alt="Second slide">
 						</div>
 						<div class="carousel-item">
-							<img class="d-block w-100" src="./img/slide-3.svg" alt="Third slide">
+							<img class="d-block w-100" src="./img/banner-3.png" alt="Third slide">
 						</div>
 					</div>
 					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -77,7 +149,6 @@
 						<span class="sr-only">Next</span>
 					</a>
 				</div>
-			</div>
 		</section>
 
 		<section id="acesso-rapido">
@@ -86,21 +157,25 @@
 					<div class="col-12 my-3 text-left">
 						<h4>ACESSO RÁPIDO</h4>
 					</div>
-					<div class="col-3 my-3">
+					<div class="col-6 col-md my-3">
 						<i class="far fa-comment fa-5x d-block"></i>
 						Ouvidoria
 					</div>
-					<div class="col-3 my-3">
+					<div class="col-6 col-md my-3">
 						<i class="far fa-file-alt fa-5x d-block"></i>
 						Editais e Documentos
 					</div>
-					<div class="col-3 my-3">
+					<div class="col-6 col-md my-3">
 						<i class="far fa-calendar-alt fa-5x d-block"></i>
 						Eventos
 					</div>
-					<div class="col-3 my-3">
+					<div class="col-6 col-md my-3">
 						<i class="fas fa-cog fa-5x d-block"></i>
 						Sistemas
+					</div>
+					<div class="col-6 col-md my-3">
+						<i class="fas fa-external-link-alt fa-5x d-block"></i>
+						Links úteis
 					</div>
 				</div>
 
@@ -126,7 +201,7 @@
 								<img src="./img/dest-2.png" class="mw-100">
 							</div>
 							<div class="col-9 mb-3">
-								<span class="d-block">Unipampa participa de manifesto pelo adiamento das datas previstas para o Enem 2020</span>
+								<a class="d-block">Unipampa participa de manifesto pelo adiamento das datas previstas para o Enem 2020</a>
 								<small class="font-italic">14/05/2020 - 14:31</small>
 							</div>
 						</div>
@@ -142,6 +217,9 @@
 						</div>
 
 					</div>
+
+					<div class="col-12"><hr class="border-top border-white"></div>
+
 					<div class="col-8 my-3">
 						<h5>Últimas noticias</h5>
 						<span class="d-block">Intercambistas da Unipampa e o impacto da Pandemia falam na primeira roda de conversa dos Diálogos Interculturais</span>
@@ -166,17 +244,72 @@
 					<div class="col-12 my-3">
 						<h4>UNIDADES</h4>
 					</div>
-					<div class="col-4 my-3">Reitoria</div>
-					<div class="col-4 my-3">Alegrete</div>
-					<div class="col-4 my-3">Bagé</div>
-					<div class="col-4 my-3">Caçapava do Sul</div>
-					<div class="col-4 my-3">Dom Pedrito</div>
-					<div class="col-4 my-3">Itaqui</div>
-					<div class="col-4 my-3">Jaguarão</div>
-					<div class="col-4 my-3">Santana do Livramento</div>
-					<div class="col-4 my-3">São Borja</div>
-					<div class="col-4 my-3">São Gabriel</div>
-					<div class="col-4 my-3">Uruguaiana</div>
+					<div class="col my-3">
+						<span class="font-weight-bold d-block">Reitoria</span>
+						<span class="d-block">Rua ABC, nº X</span>
+						<span class="d-block">Fone: (xx) xxxx-xxxx</span>
+						<span class="d-block">00000-000</span>
+					</div>
+					<div class="col my-3">
+						<span class="font-weight-bold d-block">Alegrete</span>
+						<span class="d-block">Rua ABC, nº X</span>
+						<span class="d-block">Fone: (xx) xxxx-xxxx</span>
+						<span class="d-block">00000-000</span>
+					</div>
+					<div class="col my-3">
+						<span class="font-weight-bold d-block">Bagé</span>
+						<span class="d-block">Rua ABC, nº X</span>
+						<span class="d-block">Fone: (xx) xxxx-xxxx</span>
+						<span class="d-block">00000-000</span>
+					</div>
+					<div class="col my-3">
+						<span class="font-weight-bold d-block">Caçapava do Sul</span>
+						<span class="d-block">Rua ABC, nº X</span>
+						<span class="d-block">Fone: (xx) xxxx-xxxx</span>
+						<span class="d-block">00000-000</span>
+					</div>
+					<div class="col my-3">
+						<span class="font-weight-bold d-block">Dom Pedrito</span>
+						<span class="d-block">Rua ABC, nº X</span>
+						<span class="d-block">Fone: (xx) xxxx-xxxx</span>
+						<span class="d-block">00000-000</span>
+					</div>
+					<div class="col my-3">
+						<span class="font-weight-bold d-block">Itaqui</span>
+						<span class="d-block">Rua ABC, nº X</span>
+						<span class="d-block">Fone: (xx) xxxx-xxxx</span>
+						<span class="d-block">00000-000</span>
+					</div>
+					<div class="col my-3">
+						<span class="font-weight-bold d-block">Jaguarão</span>
+						<span class="d-block">Rua ABC, nº X</span>
+						<span class="d-block">Fone: (xx) xxxx-xxxx</span>
+						<span class="d-block">00000-000</span>
+					</div>
+					<div class="col my-3">
+						<span class="font-weight-bold d-block">Santana do Livramento</span>
+						<span class="d-block">Rua ABC, nº X</span>
+						<span class="d-block">Fone: (xx) xxxx-xxxx</span>
+						<span class="d-block">00000-000</span>
+					</div>
+					<div class="col my-3">
+						<span class="font-weight-bold d-block">São Borja</span>
+						<span class="d-block">Rua ABC, nº X</span>
+						<span class="d-block">Fone: (xx) xxxx-xxxx</span>
+						<span class="d-block">00000-000</span>
+					</div>
+					<div class="col my-3">
+						<span class="font-weight-bold d-block">São Gabriel</span>
+						<span class="d-block">Rua ABC, nº X</span>
+						<span class="d-block">Fone: (xx) xxxx-xxxx</span>
+						<span class="d-block">00000-000</span>
+					</div>
+					<div class="col my-3">
+						<span class="font-weight-bold d-block">Uruguaiana</span>
+						<span class="d-block">Rua ABC, nº X</span>
+						<span class="d-block">Fone: (xx) xxxx-xxxx</span>
+						<span class="d-block">00000-000</span>
+					</div>
 				</div>
 
 			</div>
@@ -186,8 +319,10 @@
 	<footer role="footer" class="bg-dark text-white">
 		<div class="container">
 			<div class="row">
-				<div class="col-6 my-3">Copyright</div>
-				<div class="col-3 my-3">Redes sociais<br>Idiomas?</div>
+				<div class="col-6 my-3">© 2020 Universidade Federal do Pampa (UNIPAMPA)
+
+</div>
+				<div class="col-3 my-3"><i class="fab fa-facebook-square fa-2x"></i> <i class="fab fa-twitter-square fa-2x"></i> <i class="fab fa-youtube-square fa-2x"></i><br></div>
 				<div class="col-3 my-3">Acesso ao portal antigo</div>
 
 			</div>
