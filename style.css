@@ -2,6 +2,7 @@ body {
 	font-family: "Source Sans Pro",Arial,Helvetica,Sans-serif;
 }
 
+
 /* Verde Unipampa */
 .bg-verde-unipampa {
 	background-color: #009045;
@@ -11,6 +12,31 @@ body {
 	border-color: #009045;
 }
 
+.btn-verde-unipampa {
+	color: #ffffff;
+	background-color: #009045;
+	border-color: #009045;
+}
+
+
+/* Verde Escuro Unipampa */
+.btn-verde-unipampa:hover,
+.btn-verde-unipampa:not(:disabled):not(.disabled):active,
+.show>.btn-verde-unipampa.dropdown-toggle {
+	color: #ffffff;
+	background-color: #067638;
+	border-color: #007032;
+}
+
+
+/* Verde Claro Unipampa */
+.btn-verde-unipampa:not(:disabled):not(.disabled).active:focus,
+.btn-verde-unipampa:not(:disabled):not(.disabled):active:focus,
+.show>.btn-verde-unipampa.dropdown-toggle:focus {
+	box-shadow: 0 0 0 0.2rem rgba(50,166,106,.5);
+}
+
+
 /*Dropdown Menu*/
 .dropdown-menu-center {
     right: auto;
@@ -19,6 +45,7 @@ body {
     -o-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
 }
+
 
 /* Dropdown Submenu */
 .dropdown-submenu {
