@@ -1,7 +1,9 @@
 body {
 	font-family: "Source Sans Pro",Arial,Helvetica,Sans-serif;
 }
-
+.form-inline .form-control {
+	width: calc(100% - 75px) !important;
+}
 
 /* Verde Unipampa */
 .bg-verde-unipampa {
