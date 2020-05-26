@@ -1,6 +1,9 @@
 body {
 	font-family: "Source Sans Pro",Arial,Helvetica,Sans-serif;
 }
+#assinatura-unipampa {
+    max-width: 520px;
+}
 
 /* Barra de pesquisa */
 .form-inline .form-control {
