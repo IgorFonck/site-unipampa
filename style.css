@@ -1,6 +1,8 @@
 body {
 	font-family: "Source Sans Pro",Arial,Helvetica,Sans-serif;
 }
+
+/* Barra de pesquisa */
 .form-inline .form-control {
 	width: calc(100% - 75px) !important;
 }
