@@ -34,10 +34,10 @@
 					<a href="#"><img src="./img/assinatura-visual-unipampa.jpg" id="assinatura-unipampa"></a>
 				</div>
 				<div class="col-4 d-flex">
-						<form class="form-inline w-100">
-							<input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Search">
-							<button class="btn btn-outline-success my-2 my-sm-0 mr-4" type="submit"><i class="fas fa-search"></i></button>
-						</form>
+					<form class="form-inline w-100">
+						<input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0 mr-4" type="submit"><i class="fas fa-search"></i></button>
+					</form>
 				</div>
 			</div>
 		</div>
@@ -333,29 +333,104 @@
 
 		<section id="acesso-rapido">
 			<div class="container">
-				<div class="row text-center mt-3">
+				<!--div class="row text-center mt-3">
 					<div class="col-12 mt-3 text-left">
 						<h4>ACESSO RÁPIDO</h4>
 					</div>
-					<div class="col-6 col-md m-3 btn btn-light py-4">
+					<button class="col-6 col-md m-3 btn btn-light py-4">
 						<i class="far fa-comment fa-5x d-block"></i>
+						<span class="d-block pt-2">Ouvidoria</span>
+					</button>
+					<button class="col-6 col-md m-3 btn btn-light py-4">
+						<i class="far fa-file-alt fa-5x d-block"></i>
+						<span class="d-block pt-2">Editais e Documentos</span>
+					</button>
+					<button class="col-6 col-md m-3 btn btn-light py-4">
+						<i class="far fa-calendar-alt fa-5x d-block"></i>
+						<span class="d-block pt-2">Eventos</span>
+					</button>
+					<button class="col-6 col-md m-3 btn btn-light py-4">
+						<i class="fas fa-cog fa-5x d-block"></i>
+						<span class="d-block pt-2">Sistemas</span>
+					</button>
+					<button class="col-6 col-md m-3 btn btn-light py-4" id="pills-links-tab" data-toggle="pill" href="#pills-links" role="tab" aria-controls="pills-links" aria-selected="true">
+						<i class="fas fa-external-link-alt fa-5x d-block"></i>
+						<span class="d-block pt-2">Links úteis</span>
+					</button>
+				</div-->
+
+				<div class="row text-center mt-3 nav nav-pills" id="pills-tab" role="tablist">
+					<div class="col-12 mt-3 text-left nav-item">
+						<h4>ACESSO RÁPIDO</h4>
+					</div>
+					<a href="#" class="col-6 col-md m-3 btn btn-light py-4 nav-item">
+						<i class="far fa-comment fa-5x d-block"></i>
+						<span class="d-block pt-2">Ouvidoria</span>
+					</a>
+					<button class="col-6 col-md m-3 btn btn-light py-4 nav-item" id="pills-documentos-tab" data-toggle="pill" href="#pills-documentos" role="tab" aria-controls="pills-documentos" aria-selected="true">
+						<i class="far fa-file-alt fa-5x d-block"></i>
+						<span class="d-block pt-2">Editais e Documentos</span>
+					</button>
+					<button class="col-6 col-md m-3 btn btn-light py-4 nav-item" id="pills-eventos-tab" data-toggle="pill" href="#pills-eventos" role="tab" aria-controls="pills-eventos" aria-selected="true">
+						<i class="far fa-calendar-alt fa-5x d-block"></i>
+						<span class="d-block pt-2">Eventos</span>
+					</button>
+					<button class="col-6 col-md m-3 btn btn-light py-4 nav-item" id="pills-sistemas-tab" data-toggle="pill" href="#pills-sistemas" role="tab" aria-controls="pills-sistemas" aria-selected="true">
+						<i class="fas fa-cog fa-5x d-block"></i>
+						<span class="d-block pt-2">Sistemas</span>
+					</button>
+					<button class="col-6 col-md m-3 btn btn-light py-4 nav-item" id="pills-links-tab" data-toggle="pill" href="#pills-links" role="tab" aria-controls="pills-links" aria-selected="true">
+						<i class="fas fa-external-link-alt fa-5x d-block"></i>
+						<span class="d-block pt-2">Links úteis</span>
+					</button>
+				</div>
+
+				<div class="tab-content" id="pills-tabContent">
+					<div class="tab-pane fade" id="pills-ouvidoria" role="tabpanel" aria-labelledby="pills-ouvidoria-tab">
 						Ouvidoria
 					</div>
-					<div class="col-6 col-md m-3 btn btn-light py-4">
-						<i class="far fa-file-alt fa-5x d-block"></i>
-						Editais e Documentos
+					<div class="tab-pane fade" id="pills-documentos" role="tabpanel" aria-labelledby="pills-documentos-tab">
+						Editais
 					</div>
-					<div class="col-6 col-md m-3 btn btn-light py-4">
-						<i class="far fa-calendar-alt fa-5x d-block"></i>
+					<div class="tab-pane fade" id="pills-eventos" role="tabpanel" aria-labelledby="pills-eventos-tab">
 						Eventos
 					</div>
-					<div class="col-6 col-md m-3 btn btn-light py-4">
-						<i class="fas fa-cog fa-5x d-block"></i>
+					<div class="tab-pane fade" id="pills-sistemas" role="tabpanel" aria-labelledby="pills-sistemas-tab">
 						Sistemas
 					</div>
-					<div class="col-6 col-md m-3 btn btn-light py-4">
-						<i class="fas fa-external-link-alt fa-5x d-block"></i>
-						Links úteis
+					<div class="tab-pane fade" id="pills-links" role="tabpanel" aria-labelledby="pills-links-tab">
+						Links
+					</div>
+				</div>
+
+				<div class="col-12">
+					<div id="collapseEditais" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+						<div class="card-body">
+							Editais
+							Portarias
+							Boletins de serviço
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div id="collapseEventos" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+						<div class="card-body">
+							Eventos
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div id="collapseSistemas" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+						<div class="card-body">
+							Sistemas
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div id="collapseLinks" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+						<div class="card-body">
+							Links
+						</div>
 					</div>
 				</div>
 
