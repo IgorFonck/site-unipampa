@@ -5,6 +5,9 @@ body {
     width: 520px;
     max-width: 100%;
 }
+#row-sistemas img {
+    max-height: 80px;
+}
 
 /* Barra de pesquisa */
 .form-inline .form-control {
