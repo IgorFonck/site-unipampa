@@ -8,6 +8,10 @@ body {
 #row-sistemas img {
     max-height: 80px;
 }
+#logo-fala-br {
+    width: 610px;
+    max-width: 100%;
+}
 
 /* Barra de pesquisa */
 .form-inline .form-control {
