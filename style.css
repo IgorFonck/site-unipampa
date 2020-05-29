@@ -45,6 +45,14 @@ body {
 }
 
 
+/* Cinza Acesso Rápido */
+.bg-cinza-acesso {
+    background-color: #dae0e5;
+}
+.bg-cinza-acesso a {
+    color: #212529;;
+}
+
 /*Dropdown Menu*/
 .dropdown-menu-center {
     right: auto;
