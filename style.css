@@ -33,6 +33,16 @@ body {
 	border-color: #009045;
 }
 
+.btn-branco-unipampa {
+    color: #009045;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+.btn-branco-unipampa:hover {
+    color: #ffffff;
+    background-color: #009045;
+}
+
 
 /* Verde Escuro Unipampa */
 .btn-verde-unipampa:hover,
