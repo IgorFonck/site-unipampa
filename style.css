@@ -62,12 +62,21 @@ body {
 }
 
 
-/* Cinza Acesso Rápido */
+/* Cinza Acesso Rápido e Unidades */
 .bg-cinza-acesso {
     background-color: #dae0e5;
 }
 .bg-cinza-acesso a {
     color: #212529;;
+}
+.text-unidades {
+    text-decoration: none;
+    color: #212529;
+    font-size: 0.9rem;
+}
+.text-unidades:hover {
+    text-decoration: none;
+    color: #212529;
 }
 
 /*Dropdown Menu*/
