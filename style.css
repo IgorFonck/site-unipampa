@@ -12,10 +12,15 @@ body {
     width: 610px;
     max-width: 100%;
 }
+@media all and (max-width: 991px) {
+    #bloco-acessibilidade {
+        position: static !important;
+    }
+}
 
 /* Barra de pesquisa */
 .form-inline .form-control {
-	width: calc(100% - 75px) !important;
+	width: calc(100% - 52px) !important;
 }
 
 /* Verde Unipampa */
@@ -106,7 +111,7 @@ a.text-black:hover {
 
 .dropdown-submenu>.dropdown-menu {
     top: 0;
-    left: 1'00'%;
+    left: 100%;
     margin-top: -6px;
     margin-left: -1px;
     -webkit-border-radius: 0 6px 6px 6px;
