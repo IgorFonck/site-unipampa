@@ -18,6 +18,10 @@ body {
     }
 }
 
+.white-space-pre-wrap {
+    white-space: pre-wrap;
+}
+
 /* Barra de pesquisa */
 .form-inline .form-control {
 	width: calc(100% - 52px) !important;
