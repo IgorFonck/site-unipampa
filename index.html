@@ -31,7 +31,7 @@
 		<div class="container">
 			<div class="row text-center text-lg-left">
 				<div class="col-12 col-lg-8 my-4">
-					<a href="#"><img src="./img/assinatura-visual-unipampa.jpg" id="assinatura-unipampa"></a>
+					<a href="#"><img src="./img/assinatura-visual-unipampa.svg" id="assinatura-unipampa"></a>
 				</div>
 				<div class="col-12 col-lg-4 d-lg-flex">
 					<div id="bloco-acessibilidade" class="d-block d-lg-inline my-3 my-lg-0 position-absolute text-black" style="top:15px; right: 15px">
@@ -302,19 +302,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<!--ul class="navbar-nav mr-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="https://getbootstrap.com/docs/4.0/examples/navbar-static/#">Institucional</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="https://getbootstrap.com/docs/4.0/examples/navbar-static/#">Campi</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="https://getbootstrap.com/docs/4.0/examples/navbar-static/#">Sistemas</a>
-				</li>
-			</ul-->
-			
+			</div>			
 		</div>
 	</nav>
 
@@ -352,12 +340,14 @@
 		<section id="acesso-rapido">
 			<div class="container">
 
-				<div class="row text-center mt-3 nav nav-pills" id="pills-tab" role="tablist">
+				<div class="row text-center mt-3" id="pills-tab" role="tablist">
 					<div class="col-12 mt-3 text-left nav-item">
 						<h4>ACESSO RÁPIDO</h4>
 					</div>
 					
-					<button class="col-2 col-lg mx-auto mx-lg-3 my-3 btn btn-light py-2 py-xl-4 nav-item" id="pills-ouvidoria-tab" data-toggle="pill" href="#pills-ouvidoria" role="tab" aria-controls="pills-ouvidoria" aria-selected="true">
+				<div class="col-12 nav nav-pills" style='padding-left:15px;'>
+
+					<button class="col-2 col-lg mx-auto mr-lg-3 my-3 btn btn-light py-2 py-xl-4 nav-item" id="pills-ouvidoria-tab" data-toggle="pill" href="#pills-ouvidoria" role="tab" aria-controls="pills-ouvidoria" aria-selected="true">
 						<i class="far fa-comment fa-2x d-block d-sm-none"></i>
 						<i class="far fa-comment fa-3x d-none d-sm-block d-lg-none"></i>
 						<i class="far fa-comment fa-5x d-none d-lg-block"></i>
@@ -389,17 +379,18 @@
 						<span class="d-none d-md-block pt-2 white-space-pre-wrap">Sistemas</span>
 					</button>
 					
-					<button class="col-2 col-lg mx-auto mx-lg-3 my-3 btn btn-light py-2 py-xl-4 nav-item" id="pills-links-tab" data-toggle="pill" href="#pills-links" role="tab" aria-controls="pills-links" aria-selected="true">
+					<button class="col-2 col-lg mx-auto ml-lg-3 my-3 btn btn-light py-2 py-xl-4 nav-item" id="pills-links-tab" data-toggle="pill" href="#pills-links" role="tab" aria-controls="pills-links" aria-selected="true">
 						<i class="fas fa-external-link-alt fa-2x d-block d-sm-none"></i>
 						<i class="fas fa-external-link-alt fa-3x d-none d-sm-block d-lg-none"></i>
 						<i class="fas fa-external-link-alt fa-5x d-none d-lg-block"></i>
 						<span class="d-block d-md-none pt-2 white-space-pre-wrap small text-truncate">Links úteis</span>
 						<span class="d-none d-md-block pt-2 white-space-pre-wrap">Links úteis</span>
 					</button>
+					</div>
 				</div>
 
 				<div class="tab-content" id="pills-tabContent">
-					<div class="tab-pane fade bg-cinza-acesso rounded mb-3" id="pills-ouvidoria" role="tabpanel" aria-labelledby="pills-ouvidoria-tab">
+					<div class="tab-pane fade bg-cinza-acesso rounded mb-3 alert alert-dismissible" id="pills-ouvidoria" role="tabpanel" aria-labelledby="pills-ouvidoria-tab">
 						<div class="container px-4">
 							<div class="row">
 								<div class="col-12 my-3">
@@ -416,9 +407,12 @@
 								</div>
 							</div>
 						</div>
+						<button type="button" class="close close-tab" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
 					</div>
 
-					<div class="tab-pane fade bg-cinza-acesso rounded mb-3" id="pills-documentos" role="tabpanel" aria-labelledby="pills-documentos-tab">
+					<div class="tab-pane fade bg-cinza-acesso rounded mb-3 alert alert-dismissible" id="pills-documentos" role="tabpanel" aria-labelledby="pills-documentos-tab">
 						<div class="container px-4">
 							<div class="row">
 								<div class="col-12 my-3">
@@ -456,8 +450,11 @@
 								</div>
 							</div>
 						</div>
+						<button type="button" class="close close-tab" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
 					</div>
-					<div class="tab-pane fade bg-cinza-acesso rounded mb-3" id="pills-eventos" role="tabpanel" aria-labelledby="pills-eventos-tab">
+					<div class="tab-pane fade bg-cinza-acesso rounded mb-3 alert alert-dismissible" id="pills-eventos" role="tabpanel" aria-labelledby="pills-eventos-tab">
 						<div class="container px-4">
 							<div class="row">
 								<div class="col-12 my-3">
@@ -519,8 +516,11 @@
 								</div>
 							</div>
 						</div>
+						<button type="button" class="close close-tab" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
 					</div>
-					<div class="tab-pane fade bg-cinza-acesso rounded mb-3" id="pills-sistemas" role="tabpanel" aria-labelledby="pills-sistemas-tab">
+					<div class="tab-pane fade bg-cinza-acesso rounded mb-3 alert alert-dismissible" id="pills-sistemas" role="tabpanel" aria-labelledby="pills-sistemas-tab">
 						<div class="container px-4">
 							<div class="row text-center" id="row-sistemas">
 								<div class="col-12 col-sm-4 my-3 d-flex flex-column">
@@ -563,8 +563,11 @@
 								</div>
 							</div>
 						</div>
+						<button type="button" class="close close-tab" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
 					</div>
-					<div class="tab-pane fade bg-cinza-acesso rounded mb-3" id="pills-links" role="tabpanel" aria-labelledby="pills-links-tab">
+					<div class="tab-pane fade bg-cinza-acesso rounded mb-3 alert alert-dismissible" id="pills-links" role="tabpanel" aria-labelledby="pills-links-tab">
 						<div class="container px-4">
 							<div class="row">
 								<div class="col-12 col-md-4 my-4">
@@ -605,6 +608,9 @@
 								</div>
 							</div>
 						</div>
+						<button type="button" class="close close-tab" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
 					</div>
 				</div>
 
